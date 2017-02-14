@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mario001
+  host: mario001
+  disk_quota: 1024M
+  services:
+  - mario001-cloudantNoSQLDB
+  - mario001-iotf-service
+  - AlchemyAPI-lp
